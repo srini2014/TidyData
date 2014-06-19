@@ -16,6 +16,6 @@ Month 3 Assignment
 12.	Combine the resultant Test and Train dataframes using rbind to combine the rows from Test and Train data frames
 13.	Extracts only the measurements on the mean and standard deviation for each measurement by Subsetting columns mean and standard deviation from the combined dataframe in step # 12
 14.	Uses descriptive activity names to name the activities in the data set by merging the acivity dataframe with dataframe in step # 14  to get the activity names
-15.	Creates a tidy dataset with the average of each variable for each activity and each subject the average of each variable for each activity and each subject
+15.	Create a tidy dataset with the average of each variable for each activity and each subject the average of each variable for each activity and each subject
 16.	Write the tidy datset in “TidyDataset.txt”
 
