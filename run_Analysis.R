@@ -7,7 +7,7 @@ run_analysis <- function(){
   # Read Activity file
   act.file <- read.table("C:/Users/srinivas/Documents/R/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset/activity_labels.txt", header = FALSE, sep = "") 
   names(act.file) <- c("activity_id","activity_desc")
-  # Question 43:Appropriately labels the data set with descriptive variable namesAssign names from features file to training file
+  # Question 4:Appropriately labels the data set with descriptive variable namesAssign names from features file to training file
   names(train.file) <- feat.file[,2]  
   # Read subject train file
   subjtrain.file <- read.table("C:/Users/srinivas/Documents/R/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset/train/subject_train.txt", header = FALSE, sep = "")
