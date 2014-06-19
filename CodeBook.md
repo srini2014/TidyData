@@ -1,4 +1,4 @@
-Enter file contents here
+
 Description of the study:
   "Human Activity Recognition Using Smartphones " was a study carried out by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto at Smartlab - Non Linear Complex Systems Laboratory.
 Sampling information:
