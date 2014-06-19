@@ -2,7 +2,7 @@
 Description of the study:
   "Human Activity Recognition Using Smartphones " was a study carried out by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto at Smartlab - Non Linear Complex Systems Laboratory.
 Sampling information:
-This study involved experiments on 30 volunteers within age group of 19-48 years wearing smartphone (Samsung Galaxy S II) and performing six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).Using the  embedded accelerometer and gyroscope of thr smart phone,3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz were captured. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
+This study involved experiments on 30 volunteers within age group of 19-48 years wearing smartphone (Samsung Galaxy S II) and performing six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).Using the  embedded accelerometer and gyroscope of the smart phone,3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz were captured. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
 Technical information about the input files:
 1.	X_Train.Txt : Training set with 561 time and frequency domain variables(Variables described below). These variables are Numeric 
@@ -43,7 +43,7 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 
 3. subject_test / subject_train: File with the information on the 30 volunteers participating the experiment. Subjects represeted by numeric data of length 1.
 
-4. y_train/y_test: File with information with 6 activities. Activities represnted by numeric data of lenth 1.
+4. y_train/y_test: File with information with 6 activities. Activities represnted by numeric data of length 1.
 1 WALKING
 2 WALKING_UPSTAIRS
 3 WALKING_DOWNSTAIRS
