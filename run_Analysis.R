@@ -23,6 +23,7 @@ run_analysis <- function(){
   
   #Read X_test file
   test.file <- read.table("C:/Users/srinivas/Documents/R/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset/test/X_test.txt", header = FALSE, sep = "")
+# Question 4:Appropriately labels the data set with descriptive variable namesAssign names from features file to test file
  names(test.file) <- feat.file[,2] 
  
  #Read subject test file
